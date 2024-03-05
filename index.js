@@ -18,3 +18,8 @@ let arrayConConstructorArray = new Array(5, 'cuatro', true);
 
 let secuenciaNumerica = Array.from({length: 10}, (_, index) => index);
 console.log(secuenciaNumerica); 
+
+// Array mediante la repetición de un valor utilizando el método Array.fill( ) 
+
+let arrayRepetido = new Array(5).fill('Hola');
+console.log(arrayRepetido); 
