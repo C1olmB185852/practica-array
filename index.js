@@ -65,3 +65,14 @@ let iArray = [1, 2, 3, 4, 5];
 let longitud = iArray.length;
 
 console.log("La longitud del array es: " + longitud); 
+
+// Agregar elementos al final del array usando push( ) 
+
+let lArray = [1, 2, 3];
+console.log("Array original: " + lArray); 
+
+lArray.push(4);
+console.log("Array después de agregar 4: " + lArray); 
+
+lArray.push(5, 6);
+console.log("Array después de agregar 5 y 6: " + lArray); 
