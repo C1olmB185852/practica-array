@@ -38,3 +38,10 @@ let array2 = [8, 10, 12];
 let arrayCombinado = [...array1, ...array2];
 
 console.log(arrayCombinado); 
+
+// Array con valores únicos utilizando el método Set() y el operador spread ( ... )
+
+let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
+let arraySinDuplicados = [...new Set(arrayConDuplicados)];
+
+console.log(arraySinDuplicados); 
