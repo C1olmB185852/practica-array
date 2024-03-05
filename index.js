@@ -45,3 +45,16 @@ let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 let arraySinDuplicados = [...new Set(arrayConDuplicados)];
 
 console.log(arraySinDuplicados); 
+
+// Array con una función que genere valores dinámicamente:
+
+function generarArray(longitud) {
+    let array = [];
+    for (let i = 0; i < longitud; i++) {
+        array.push(i * 2);
+    }
+    return array;
+}
+
+let miArray = generarArray(5);
+console.log(miArray); 
