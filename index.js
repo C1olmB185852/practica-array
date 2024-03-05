@@ -29,3 +29,12 @@ console.log(arrayRepetido);
 let cadenaTexto = "Hola, Como estan";
 let arrayDeCadena = cadenaTexto.split(', ');
 console.log(arrayDeCadena);
+
+// Array combinando dos arrays existentes utilizando el operador spread ( ... ):
+
+let array1 = [2, 4, 6];
+let array2 = [8, 10, 12];
+
+let arrayCombinado = [...array1, ...array2];
+
+console.log(arrayCombinado); 
