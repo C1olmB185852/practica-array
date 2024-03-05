@@ -23,3 +23,9 @@ console.log(secuenciaNumerica);
 
 let arrayRepetido = new Array(5).fill('Hola');
 console.log(arrayRepetido); 
+
+// Array a partir de una cadena de texto usando el método String.split( )
+
+let cadenaTexto = "Hola, Como estan";
+let arrayDeCadena = cadenaTexto.split(', ');
+console.log(arrayDeCadena);
