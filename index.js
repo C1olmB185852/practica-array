@@ -58,3 +58,10 @@ function generarArray(longitud) {
 
 let miArray = generarArray(5);
 console.log(miArray); 
+
+// Obtener la longitud de un array
+
+let iArray = [1, 2, 3, 4, 5];
+let longitud = iArray.length;
+
+console.log("La longitud del array es: " + longitud); 
