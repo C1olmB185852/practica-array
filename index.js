@@ -76,3 +76,13 @@ console.log("Array después de agregar 4: " + lArray);
 
 lArray.push(5, 6);
 console.log("Array después de agregar 5 y 6: " + lArray); 
+
+// Eliminar el último elemento del array usando pop( )
+
+let liArray = [1, 2, 3, 4, 5];
+console.log("Array original: " + miArray); 
+
+let ultimoElementoEliminado = liArray.pop();
+console.log("Elemento eliminado: " + ultimoElementoEliminado); 
+
+console.log("Array después de eliminar el último elemento: " + liArray); 
