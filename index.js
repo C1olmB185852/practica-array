@@ -133,3 +133,11 @@ console.log("Subsección del array: " + subseccion);
 
 let subseccion2 = numero.slice(-4);
 console.log("Subsección del array 2: " + subseccion2); 
+
+// Eliminar una porción del array sin modificar el original usando slice( )
+
+let Cantidadnumeros = [1, 2, 3, 4, 5];
+let porcionEliminada = Cantidadnumeros.slice(1, 3);
+
+console.log("Porción eliminada: " + porcionEliminada); 
+console.log("Array original: " + Cantidadnumeros); 
