@@ -123,3 +123,13 @@ let cadena = Anumeros.join(', ');
 
 console.log("Array original: " + Anumeros); 
 console.log("Array convertido a string: " + cadena); 
+
+// Obtener una subsección del array desde un índice negativo usando slice( ) 
+
+let numero = [1, 2, 3, 4, 5];
+
+let subseccion = numero.slice(-2);
+console.log("Subsección del array: " + subseccion); 
+
+let subseccion2 = numero.slice(-4);
+console.log("Subsección del array 2: " + subseccion2); 
