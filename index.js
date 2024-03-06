@@ -107,3 +107,11 @@ let primerElementoEliminado = lnumeros.shift();
 console.log("Primer elemento eliminado: " + primerElementoEliminado); 
 
 console.log("Array después de eliminar el primer elemento: " + lnumeros); 
+
+// Obtener una porción del array usando slice( )
+
+let inumeros = [1, 2, 3, 4, 5];
+console.log("Array original: " + inumeros);
+
+let porcion = inumeros.slice(1, 4);
+console.log("Porción del array: " + porcion); 
