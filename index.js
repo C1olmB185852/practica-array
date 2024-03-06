@@ -86,3 +86,14 @@ let ultimoElementoEliminado = liArray.pop();
 console.log("Elemento eliminado: " + ultimoElementoEliminado); 
 
 console.log("Array después de eliminar el último elemento: " + liArray); 
+
+// Agregar elementos al principio del array usando unshift( )
+
+let numeros = [3, 4, 5];
+console.log("Array original: " + numeros); 
+
+numeros.unshift(2);
+console.log("Array después de agregar 2 al principio: " + numeros); 
+
+numeros.unshift(1);
+console.log("Array después de agregar 1 al principio: " + numeros); 
