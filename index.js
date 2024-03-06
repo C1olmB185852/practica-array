@@ -141,3 +141,12 @@ let porcionEliminada = Cantidadnumeros.slice(1, 3);
 
 console.log("Porción eliminada: " + porcionEliminada); 
 console.log("Array original: " + Cantidadnumeros); 
+
+// Agregar múltiples elementos al principio del array usando unshift( ) con spread operator ( ... ):
+
+let Arrayy = [3, 4, 5];
+console.log("Array original: " + Arrayy); 
+
+let nuevosElementos = [1, 2];
+Arrayy.unshift(...nuevosElementos);
+console.log("Array después de agregar elementos al principio: " + Arrayy); 
