@@ -115,3 +115,11 @@ console.log("Array original: " + inumeros);
 
 let porcion = inumeros.slice(1, 4);
 console.log("Porción del array: " + porcion); 
+
+// Convertir un array en un string usando join( )
+
+let Anumeros = [1, 2, 3, 4, 5];
+let cadena = Anumeros.join(', ');
+
+console.log("Array original: " + Anumeros); 
+console.log("Array convertido a string: " + cadena); 
